@@ -182,6 +182,7 @@ logger.error = (msg, options) => {
 }
 
 export default defineConfig({
+	base: '/danielz21discord.github.io/',
 	customLogger: logger,
 	plugins: [react(), addTransformIndexHtml],
 	server: {
